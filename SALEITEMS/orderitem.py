@@ -4,10 +4,10 @@ class OrderItem():
         self.itemquantity=itemquantity
         self.itemprice=itemprice
 
-    def getItemNumber(self):
+    def getMenuItem(self):
         return self.menuitem
 
-    def getItemName(self):
+    def getQuantity(self):
         return self.itemquantity
 
     def getItemPrice(self):

@@ -1,4 +1,4 @@
-from item import Item
+from item import MenuItem
 
 class Products():
     def __init__(self):

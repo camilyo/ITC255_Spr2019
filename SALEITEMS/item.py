@@ -12,7 +12,7 @@ class MenuItem():
     def getItemName(self):
         return self.itemname 
 
-    def getItemPrice(self):
+    def getItemDescription(self):
         return self.itemdescription
 
     def __str__(self):

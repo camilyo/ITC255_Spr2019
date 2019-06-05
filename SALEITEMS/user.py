@@ -9,13 +9,13 @@ class User():
         self.username=username
         self.permission=permission
 
-    def getItemNumber(self):
+    def getUserNumber(self):
         return self.userid
 
-    def getItemName(self):
+    def getUserName(self):
         return self.username
 
-    def getPermission(self):
+    def getUserPermission(self):
         return self.permission
     
     def __str__(self):
